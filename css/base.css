@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.imgs {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.imgs > div {
+    width: 300px;
+    margin: 1%;
+    text-align: center;
+}
+
+.imgs > div > a > img {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.ol > ol {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    text-align: left;
+}
+
+.table > table th {
+    min-width: 250px; 
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.form form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.form input {
+    padding: 5px;
+    margin: 1%;
+}
+
+.form input[type="text"] {
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+}
